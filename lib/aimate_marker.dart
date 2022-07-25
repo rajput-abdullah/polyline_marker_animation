@@ -74,7 +74,6 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         builder: (context, snapshot) {
           return GoogleMap(
             mapType: MapType.normal,
-            polylines: ,
             initialCameraPosition: currentLocationCamera,
             rotateGesturesEnabled: false,
             tiltGesturesEnabled: false,
